@@ -26,6 +26,15 @@ main {
   position: relative;
 }
 
+.navbar-nav a {
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 1px 0px #2c2c2c;
+}
+
+.navbar-nav a:hover {
+  color: rgb(226, 226, 226);
+}
+
 .navbar-nav a::before {
   content: "";
   position: absolute;
@@ -36,13 +45,6 @@ main {
   left: 0;
   transform: scaleX(0);
   transition: transform 0.3s ease;
-}
-
-.link-dark a::before {
-  background-color: #000;
-}
-
-.link-light a::before {
   background-color: #fff;
 }
 
