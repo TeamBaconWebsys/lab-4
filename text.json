@@ -2,14 +2,14 @@
     "Tutoring":[
         {
             "p1": "Every Wednesday, GNH offers tutoring for all ITWS students.",
-            "h1": "Gamma Nu Eta Tutoring",
+            "h1": "Tutoring",
             "p2": "Tutoring normally takes place from 1-2 PM at the ITWS Lounge. Just show up during the time period in order to get tutoring. <br/> <b>Please note that we may adjust the time, location, and format of tutoring as circumstances change.</b>",
             "p3": "At these tutoring sessions, Gamma Nu Eta can help you with any course in your ITWS degree program. This includes ITWS core classes, such as Intro to ITWS and Web Systems, or classes outside of ITWS, such as Computer Science 1 and Data Structures. We can also help with any questions that you might have about career development, resumes, as well as just general questions about RPI."
         }
     ],
     "Expose":[
         {
-            "h1": "Gamma Nu Eta Expose",
+            "h1": "Career Expose",
             "p1": "The GHN Expose is the largest event that Gamma Nu Eta hosts every year.",
             "p2": "This event allows students to get to know the recruiters through fun, interactive activities in small groups.",
             "p3": "Students have the opportunity to meet companies such as: Johnson & Johnson, General Electric, Jahnel Group, Microsoft, Unisys, Naval Nuclear Laboratory, and Zones, LLC."
@@ -17,7 +17,7 @@
     ],
     "Newsletter":[
       {
-        "h1": "Gamma Nu Eta Newsletter",
+        "h1": "Newsletter",
         "p1": "Yearly newsletters to Gamma Nu Eta Alumni, updating them about what is happening in ITWS and RPI at large."
       }
     ]
