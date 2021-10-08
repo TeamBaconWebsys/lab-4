@@ -52,8 +52,11 @@ body {
 }
 
 .carousel-item {
-  height: 600px;
   background-color: rgb(30, 30, 30);
+}
+
+.main-body h2 {
+  font-family: 'Roboto Slab', Georgia, serif;
 }
 
 .firstcharacter {
@@ -120,7 +123,4 @@ footer svg {
   background-attachment: fixed;
   background-repeat: no-repeat;
   vertical-align: middle;
-}
-.row {
-  box-shadow: 3px 3px 3px 3px #252525;
 }
