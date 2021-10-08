@@ -56,17 +56,6 @@ body {
   background-color: rgb(30, 30, 30);
 }
 
-.darken-img img::after {
-  content:"";
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background:rgba(0,0,0,0.6);
-  opacity: 0.6;
-}
-
 .firstcharacter {
   color: #0223f7;
   float: left;
