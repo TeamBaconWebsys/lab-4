@@ -11,7 +11,7 @@ main {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  color: #252525;
+  color: #292929;
   background-color: #fefefe;
 }
 
@@ -21,7 +21,18 @@ main {
 }
 
 .navbar-nav a {
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-size: 20px;
   position: relative;
+}
+
+.navbar-nav a {
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 1px 0px #2c2c2c;
+}
+
+.navbar-nav a:hover {
+  color: rgb(226, 226, 226);
 }
 
 .navbar-nav a::before {
@@ -34,18 +45,27 @@ main {
   left: 0;
   transform: scaleX(0);
   transition: transform 0.3s ease;
-}
-
-.link-dark a::before {
-  background-color: #000;
-}
-
-.link-light a::before {
   background-color: #fff;
 }
 
 .navbar-nav a:hover::before {
   transform: scaleX(1);
+}
+
+.carousel-item {
+  height: 600px;
+  background-color: rgb(30, 30, 30);
+}
+
+.darken-img img::after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+  opacity: 0.6;
 }
 
 /*Footer CSS*/
