@@ -55,7 +55,7 @@ body {
   background-color: rgb(30, 30, 30);
 }
 
-.main-body h2 {
+.main-body h2, .main-body h5 {
   font-family: 'Roboto Slab', Georgia, serif;
 }
 
@@ -72,10 +72,8 @@ body {
 .app {
     background-color: #0223f7;
     color:#fff;
-    width:300px;
     border-radius: 5px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
-    padding:50px;
 }
 
 .app h1 {
