@@ -52,19 +52,12 @@ body {
 }
 
 .carousel-item {
-  height: 600px;
+  max-height: 640px;
   background-color: rgb(30, 30, 30);
 }
 
-.darken-img img::after {
-  content:"";
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background:rgba(0,0,0,0.6);
-  opacity: 0.6;
+.main-body h2, .main-body h5 {
+  font-family: 'Roboto Slab', Georgia, serif;
 }
 
 .firstcharacter {
@@ -80,10 +73,8 @@ body {
 .app {
     background-color: #0223f7;
     color:#fff;
-    width:300px;
     border-radius: 5px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
-    padding:50px;
 }
 
 .app h1 {
@@ -131,7 +122,4 @@ footer svg {
   background-attachment: fixed;
   background-repeat: no-repeat;
   vertical-align: middle;
-}
-.row {
-  box-shadow: 3px 3px 3px 3px #252525;
 }
