@@ -5,6 +5,9 @@ main {
   color: #292929;
   background-color: #fefefe;
 }
+html, body{
+  overflow-x: hidden;
+}
 
 /* Navbar CSS */
 .navbar {
@@ -87,17 +90,18 @@ footer svg {
   font-size: 50px;
 }
 #tutoring, #expose, #newsletter{
-  padding: 20px;
   text-align: center;
-}
-#expose{
-  width: 100%;
+  margin:10px;
 }
 .parallax{
   background-image: url("companyexposelogo.jpg");
-  min-height: 800px;
+  min-height: 900px;
+  width: 100%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   vertical-align: middle;
+}
+.row{
+  box-shadow: 3px 3px 3px 3px #252525;
 }
