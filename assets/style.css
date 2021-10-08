@@ -7,6 +7,14 @@ stolen from coolers.co
 #23001e
 */
 
+main {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #252525;
+  background-color: #fefefe;
+}
+
 /* Navbar CSS */
 .navbar {
   transition: 0.25s;
