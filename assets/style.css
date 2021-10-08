@@ -7,8 +7,35 @@ stolen from coolers.co
 #23001e
 */
 
+/*Header CSS*/
+header{
+    top: 0;
+    padding: 5px;
+    background-color: #ef5b5b;
+    text-align: center;
+}
+header a, .navbar-nav a{
+    text-decoration: none;
+    color: #0223f7;
+    font-size: 20px;
+}
+header a:hover{
+    color: #23001e;
+}
+header img{
+    width: 80px;
+    height: auto;
+}
+
+
 /*Footer CSS*/
 footer{
     text-align: center;
     font-size: 30px;
+    bottom: 0;
+}
+footer svg {
+    height: 20px;
+    width: 20px;
+    color: #0223f7;
 }
