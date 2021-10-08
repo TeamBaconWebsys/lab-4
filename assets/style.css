@@ -7,23 +7,8 @@ stolen from coolers.co
 #23001e
 */
 
-/*Header CSS*/
-header{
-    top: 0;
-    padding: 5px;
-    background-color: #ef5b5b;
-    text-align: center;
-}
-header a, .navbar-nav a{
-    text-decoration: none;
-    color: #0223f7;
-    font-size: 20px;
-}
-header a:hover{
-    color: #23001e;
-}
-
-.navbar{
+/* Navbar CSS */
+.navbar {
   transition: 0.25s;
 }
 
@@ -55,9 +40,8 @@ header a:hover{
   transform: scaleX(1);
 }
 
-
 /*Footer CSS*/
-footer{
+footer {
     text-align: center;
     font-size: 30px;
     bottom: 0;
